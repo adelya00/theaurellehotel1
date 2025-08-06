@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Deluxe Room</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lato&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lato', sans-serif;
+      background-color: #f8f5f0;
+      color: #333;
+      padding: 40px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      color: #2f2f2f;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    p.intro {
+      text-align: center;
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 40px;
+    }
+
+    .room-images {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+
+    .room-images img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .facilities-box {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      border: 1px solid #e3e3e3;
+    }
+
+    .facilities-box h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #2e2e2e;
+      text-align: center;
+    }
+
+    ul.facility-list {
+      columns: 2;
+      list-style: none;
+      padding: 0;
+      font-size: 16px;
+    }
+
+    ul.facility-list li {
+      padding: 8px 0;
+      position: relative;
+      padding-left: 24px;
+    }
+
+    ul.facility-list li::before {
+      content: '✔';
+      color: #c9a74c;
+      position: absolute;
+      left: 0;
+      font-weight: bold;
+    }
+
+    .price {
+      text-align: center;
+      font-size: 22px;
+      color: #8b6e2f;
+      margin-top: 30px;
+      font-weight: bold;
+    }
+
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 40px;
+      text-decoration: none;
+      font-size: 16px;
+      color: #666;
+    }
+
+    .back-link:hover {
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Family Room</h1>
+  <p class="intro">Comfortable space for the whole family with extra beds.</p>
+
+  <div class="room-images">
+    <img src="images/room/family1.jpg" alt="Deluxe Room 1">
+    <img src="images/room/family2.avif" alt="Deluxe Room 2">
+    <img src="images/room/family2.jpg" alt="Deluxe Room 3">
+  </div>
+
+  <div class="facilities-box">
+    <h2>Room Facilities</h2>
+    <ul class="facility-list">
+      <li>1 Queen bed + 2 Single beds</li>
+      <li>2 rooms / Connecting room (on request)</li>
+      <li>Iron & ironing board</li>
+      <li>Living room</li>
+      <li>Mini-bar and fridge</li>
+      <li>Dining table & sofa seating</li>
+      <li>Board games (on request)</li>
+      <li>Complete bathroom amenities</li>
+      <li>Bathrobe and slippers</li>
+      <li>LCD TV with satellite channels</li>
+    </ul>
+
+    <p class="price">From RM690 per night</p>
+  </div>
+
+  <a href="index.html#rooms" class="back-link">← Back to Rooms</a>
+
+
+
+</body>
+</html>

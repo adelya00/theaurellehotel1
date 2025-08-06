@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Private Spa | THE AURELLé</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cormorant Garamond', serif;
+      background-color: #fdf8f4;
+      color: #333;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .hero-image {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .spa-type {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-bottom: 50px;
+      align-items: center;
+    }
+
+    .spa-type img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .spa-info {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .spa-info h3 {
+      margin-bottom: 10px;
+    }
+
+    .details {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .details ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .details ul li::before {
+      content: "✔️";
+      margin-right: 8px;
+      color: green;
+    }
+
+    .back-button {
+      display: inline-block;
+      margin: 20px;
+      font-size: 18px;
+      text-decoration: none;
+      color: #444;
+      background: #eee;
+      padding: 8px 16px;
+      border-radius: 8px;
+    }
+
+    @media(max-width: 768px) {
+      .spa-type {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .spa-type img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <a href="facilities.html" class="back-button">← Back to Facilities</a>
+
+  <img src="images/facilities/spa1.jpg" alt="Private Spa" class="hero-image">
+
+  <div class="container">
+    <div class="intro">
+      <h1>Private Spa</h1>
+      <p>Escape to a world of tranquility with our exclusive private spa experiences tailored for your total rejuvenation.</p>
+    </div>
+
+    <!-- SPA 1 -->
+    <div class="spa-type">
+      <img src="images/facilities/traditional.webp" alt="Traditional Spa">
+      <div class="spa-info">
+        <h3>Traditional Malay Spa</h3>
+        <p>Inspired by ancient healing rituals using natural herbs and traditional massage techniques to soothe your body and soul.</p>
+        <p><strong>RM180 / 90 minutes</strong></p>
+      </div>
+    </div>
+
+    <!-- SPA 2 -->
+    <div class="spa-type">
+      <img src="images/facilities/aromatherapy.jpg" alt="Aromatherapy Spa">
+      <div class="spa-info">
+        <h3>Aromatherapy Spa</h3>
+        <p>Immerse yourself in calming essential oils, gentle massage, and peaceful ambiance to refresh your senses.</p>
+        <p><strong>RM220 / 90 minutes</strong></p>
+      </div>
+    </div>
+
+    <!-- SPA 3 -->
+    <div class="spa-type">
+      <img src="images/facilities/hotstone.jpg" alt="Hot Stone Therapy">
+      <div class="spa-info">
+        <h3>Hot Stone Therapy</h3>
+        <p>Heated stones combined with expert massage help relieve tension and promote deep relaxation.</p>
+        <p><strong>RM250 / 90 minutes</strong></p>
+      </div>
+    </div>
+
+    <!-- Additional Details -->
+    <div class="details">
+      <h2>Details & Facilities</h2>
+      <p><strong>Operating Hours:</strong> 10 AM – 9 PM</p>
+      <ul>
+        <li>Complimentary herbal tea after session</li>
+        <li>Private changing rooms with shower</li>
+        <li>Fresh towels and robes provided</li>
+        <li>Couple spa room available upon request</li>
+      </ul>
+      <p><strong>Attire:</strong> Modest spa attire provided. Personal clothing not required.</p>
+    </div>
+  </div>
+
+</body>
+</html>

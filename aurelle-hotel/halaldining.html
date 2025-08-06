@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Halal Dining | THE AURELLé</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cormorant Garamond', serif;
+      background-color: #fffaf5;
+      color: #333;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .hero-image {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .dining-type {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-bottom: 50px;
+      align-items: center;
+    }
+
+    .dining-type img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .dining-info {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .dining-info h3 {
+      margin-bottom: 10px;
+    }
+
+    .details {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .details ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .details ul li::before {
+      content: "✔️";
+      margin-right: 8px;
+      color: green;
+    }
+
+    .back-button {
+      display: inline-block;
+      margin: 20px;
+      font-size: 18px;
+      text-decoration: none;
+      color: #444;
+      background: #eee;
+      padding: 8px 16px;
+      border-radius: 8px;
+    }
+
+    @media(max-width: 768px) {
+      .dining-type {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .dining-type img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <a href="facilities.html" class="back-button">← Back to Facilities</a>
+
+  <img src="images/halal-dining-banner.webp" alt="Halal Dining" class="hero-image">
+
+  <div class="container">
+    <div class="intro">
+      <h1>Halal Dining</h1>
+      <p>Enjoy a wide selection of authentic halal cuisine — from luxurious fine dining to comforting traditional meals, all in a serene ambiance.</p>
+    </div>
+
+    <!-- 1. Fine Dining -->
+    <div class="dining-type">
+      <img src="images/facilities/finiedining.webp" alt="Fine Dining">
+      <div class="dining-info">
+        <h3>Fine Dining</h3>
+        <p>Indulge in gourmet halal meals crafted by experienced chefs using premium ingredients, served in an elegant setting.</p>
+        <p><strong>RM150–RM300 per person</strong></p>
+      </div>
+    </div>
+
+    <!-- 2. Traditional Malay Cuisine -->
+    <div class="dining-type">
+      <img src="images/facilities/traditionalfood.jpg" alt="Traditional Malay Food">
+      <div class="dining-info">
+        <h3>Traditional Malay Cuisine</h3>
+        <p>Savor classic Malay dishes like Nasi Kerabu, Rendang Tok, and Ikan Bakar — prepared using authentic recipes.</p>
+        <p><strong>RM25–RM45 per dish</strong></p>
+      </div>
+    </div>
+
+    <!-- 3. Western Food -->
+    <div class="dining-type">
+      <img src="images/facilities/pasta.webp" alt="Western Food">
+      <div class="dining-info">
+        <h3>Western Delights</h3>
+        <p>From grilled steaks to creamy pastas, enjoy a variety of western halal meals with generous portions.</p>
+        <p><strong>RM40–RM80 per set</strong></p>
+      </div>
+    </div>
+
+    <!-- 4. Middle Eastern Cuisine -->
+    <div class="dining-type">
+      <img src="images/facilities/breakfast.jpg" alt="Middle Eastern Food">
+      <div class="dining-info">
+        <h3>Free Breakfast</h3>
+        <p>Begin your morning with our signature breakfast, included with your room.</p>
+      </div>
+    </div>
+
+    <!-- Additional Details -->
+    <div class="details">
+      <h2>Dining Information</h2>
+      <p><strong>Operating Hours:</strong> 7 AM – 11 PM</p>
+      <ul>
+        <li>Fully Halal-Certified Kitchen</li>
+        <li>Vegetarian and kids' menu available</li>
+        <li>Indoor and outdoor dining areas</li>
+        <li>Private dining rooms available on request</li>
+        <li>Complimentary buffet available for all in-house guests!!</li>
+      </ul>
+      <p><strong>Dress Code:</strong> Smart casual. No beachwear allowed.</p>
+    </div>
+  </div>
+
+</body>
+</html>

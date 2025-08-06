@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The AURELLé</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Playfair Display (tajuk utama) -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet"> 
+
+  <!-- Cormorant Garamond (perenggan) -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="contact-section">
+  <div class="contact-info">
+    <h3>Contact us:</h3>
+    <p><i class="fas fa-phone"></i> +6012-3456789</p>
+    <p><i class="fas fa-envelope"></i> info@aurelléhotel.com</p>
+  </div>
+  <div class="social-icons">
+    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+  </div>
+  <div class="navItem">
+  <span class="adminLink" onclick="location.href='admin.php';">Admin</span>
+</div>
+
+</div>
+
+  <!-- Slider/Header -->
+    <header class="slider">
+    <button class="prev" onclick="changeSlide(-1)">❮</button>
+
+    <div class="slides">
+      <img src="images/banner/banner1.jpg" alt="Banner 1">
+      <img src="images/banner/banner2.jpg" alt="Banner 2">
+      <img src="images/banner/banner3.jpg" alt="Banner 3">
+    </div>
+
+    <button class="next" onclick="changeSlide(1)">❯</button>
+
+    <div class="slider-text">
+      <h1>THE AURELLé</h1>
+      <p class="tagline">Langkawi Escape – When luxury touches the shore</p>
+    </div>
+  </header>
+
+ <nav>
+  <a href="index.html#about">About</a>
+  <a href="index.html#rooms">Rooms</a>
+  <a href="facilities.html">Facilities</a> <!-- ini yang kita ubah -->
+  <a href="index.html#contact">Contact</a>
+  <a href="index.html#booking">Booking</a>
+  <a href="index.html#signup">Sign Up</a>
+</nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About THE AURELLé</h2>
+    <div class="about-images">
+      <img src="images/about.jpg" alt="Ocean View">
+      <img src="images/about2.jpg" alt="Hotel Interior">
+    </div>
+    <p class="about-desc">
+      Welcome to <strong>THE AURELLé</strong>, a luxurious sanctuary tucked away in the lush tropics of Langkawi. 
+      Indulge in breathtaking ocean views, world-class amenities, and impeccable hospitality on one of Malaysia’s most enchanting islands.
+    </p>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section id="why-choose-us">
+  <h2>Why Choose Us</h2>
+  <div class="why-cards">
+    <div class="why-card">
+      <h3>🌅 Breathtaking Views</h3>
+      <p>Ocean and rainforest scenery that soothes your soul.</p>
+    </div>
+    <div class="why-card">
+      <h3>🏖️ Prime Location</h3>
+      <p>Walking distance to Langkawi's best beach attractions.</p>
+    </div>
+    <div class="why-card">
+      <h3>🍽️ Halal Dining</h3>
+      <p>Halal-certified restaurants with rich culinary experiences.</p>
+    </div>
+    <div class="why-card">
+      <h3>🛏️ Boutique Rooms</h3>
+      <p>Modern and elegant rooms for a stylish stay.</p>
+    </div>
+    <div class="why-card">
+      <h3>🧘‍♀️ Spa & Wellness</h3>
+      <p>Relaxing spa and wellness facilities for your comfort.</p>
+    </div>
+    <div class="why-card">
+      <h3>📶 High-Speed WiFi</h3>
+      <p>Free WiFi throughout the property for all your needs.</p>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Room Gallery (duplicate of rooms in card style) -->
+ <section id="rooms">
+  <h2 class="section-title">Our Rooms</h2>
+  <div class="room-gallery">
+    
+    <div class="room-card">
+      <a href="deluxe-room.html">
+        <img src="images/room/room1.avif" alt="Deluxe Room">
+        <h3>Deluxe Room</h3>
+        <p>Spacious room with sea view and king-size bed.</p>
+        <p><strong>From RM780/night</strong></p>
+      </a>
+    </div>
+
+    <div class="room-card">
+      <a href="signature-room.html">
+        <img src="images/room/room2.jpg" alt="Suite Room">
+        <h3>Signature Room</h3>
+        <p>Luxury suite with private balcony and modern facilities.</p>
+        <p><strong>From RM950/night</strong></p>
+      </a>
+    </div>
+
+    <div class="room-card">
+      <a href="family-room.html">
+        <img src="images/room/room3.jpg" alt="Family Room">
+        <h3>Family Room</h3>
+        <p>Comfortable space for the whole family with extra beds.</p>
+        <p><strong>From RM690/night</strong></p>
+      </a>
+    </div>
+
+    <div class="room-card">
+      <a href="garden-room.html">
+        <img src="images/room/room4.webp" alt="Premier Garden View Room">
+        <h3>Premier Garden View Room</h3>
+        <p>A cozy room overlooking our beautiful garden.</p>
+        <p><strong>From RM620/night</strong></p>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Booking Form -->
+  <section id="booking" style="background-color: rgb(240, 221, 221); padding: 60px 20px; font-family: 'Playfair Display', serif; text-align: center;">
+  <h2 style="font-size: 38px; margin-bottom: 20px; color: #333;">
+    Book Your Stay
+  </h2>
+  <p style="font-size: 18px; color: #555; margin-bottom: 35px;">
+    Ready to experience luxury? Book directly with us and enjoy exclusive perks.
+  </p>
+
+  <form id="bookingForm" style="max-width: 600px; margin: 0 auto; text-align: left; font-family: 'Segoe UI', sans-serif;">
+  <label for="name">Name</label>
+  <input type="text" name="name" id="name" placeholder="Your Name" required style="width: 100%; padding: 12px; margin-bottom: 15px;">
+
+  <label for="email">Email</label>
+  <input type="email" name="email" id="email" placeholder="Your Email" required style="width: 100%; padding: 12px; margin-bottom: 15px;">
+
+  <label for="checkin">Check-in Date</label>
+  <input type="date" name="checkin" id="checkin" required style="width: 100%; padding: 12px; margin-bottom: 15px;">
+
+  <label for="checkout">Check-out Date</label>
+  <input type="date" name="checkout" id="checkout" required style="width: 100%; padding: 12px; margin-bottom: 15px;">
+
+  <label for="room">Room Type</label>
+  <select name="room" id="room" required style="width: 100%; padding: 12px; margin-bottom: 25px;">
+    <option value="">Select a Room</option>
+    <option value="signature">Signature Suite</option>
+    <option value="deluxe">Deluxe Room</option>
+    <option value="family">Family Room</option>
+    <option value="premier garden view">Premier Garden View Room</option>
+  </select>
+
+  <button type="submit" style="background-color: #7b689cf9; color: white; padding: 14px 32px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
+    Submit
+  </button>
+</form>
+
+<!-- Payment box -->
+<div id="paymentBox" style="display: none; margin-top: 40px; background: #c5a0a0; padding: 25px; border-radius: 10px;">
+  <h3>Payment Details</h3>
+  <p>Room Price: <span id="roomPrice">-</span></p>
+
+  <label for="cardNumber">Card Number</label>
+  <input type="text" id="cardNumber" placeholder="Enter card number" style="width: 100%; padding: 12px; margin-bottom: 15px;">
+
+  <label for="expiry">Expiry Date</label>
+  <input type="text" id="expiry" placeholder="MM/YY" style="width: 100%; padding: 12px; margin-bottom: 15px;">
+
+  <label for="cvv">Card Verification Code</label>
+  <input type="text" id="cvv" placeholder="CVV" style="width: 100%; padding: 12px; margin-bottom: 15px;">
+
+  <button onclick="confirmPayment()" style="background-color: rgb(89, 111, 145); color: white; padding: 10px 20px; border: none; border-radius: 5px;">
+    Confirm Payment
+  </button>
+</div>
+
+</section>
+
+
+  <!-- Signup Form -->
+  <section id="signup">
+    <h2>Sign Up</h2>
+    <form action="signup.php" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button type="submit">Create Account</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 THE AURELLé HOTEL | Langkawi, Malaysia</p>
+  </footer>
+
+  <!-- Slider Script -->
+  <script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll(".slides img");
+
+    function showSlide(index) {
+      if (index < 0) index = slides.length - 1;
+      if (index >= slides.length) index = 0;
+      currentIndex = index;
+      document.querySelector(".slides").style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    function changeSlide(step) {
+      showSlide(currentIndex + step);
+    }
+
+    showSlide(0);
+  </script>
+
+</body>
+
+<script>
+  const form = document.getElementById('bookingForm');
+  const paymentBox = document.getElementById('paymentBox');
+  const roomPriceSpan = document.getElementById('roomPrice');
+
+  form.addEventListener('submit', function(event) {
+    event.preventDefault(); // Halang form dari submit terus
+
+    const checkin = new Date(document.getElementById('checkin').value);
+    const checkout = new Date(document.getElementById('checkout').value);
+    const room = document.getElementById('room').value;
+
+    const nights = (checkout - checkin) / (1000 * 60 * 60 * 24);
+
+    if (nights <= 0 || isNaN(nights)) {
+      alert("Please enter a valid check-in and check-out date.");
+      return;
+    }
+
+    let pricePerNight = 0;
+    if (room === 'signature') pricePerNight = 950;
+    else if (room === 'deluxe') pricePerNight = 780;
+    else if (room === 'family') pricePerNight = 690;
+    else if (room === 'premier garden view') pricePerNight = 620;
+    else {
+      alert("Please select a room type.");
+      return;
+    }
+
+    const total = nights * pricePerNight;
+
+    roomPriceSpan.innerText = `RM ${total}`;
+    paymentBox.style.display = "block";
+  });
+
+  function confirmPayment() {
+    const card = document.getElementById('cardNumber').value;
+    const expiry = document.getElementById('expiry').value;
+    const cvv = document.getElementById('cvv').value;
+
+    if (!card || !expiry || !cvv) {
+      alert("Please complete payment details.");
+      return;
+    }
+
+    alert("✅ Payment Successful!\nThank you for booking with THE AURELLé.");
+    form.submit(); // Hantar data booking ke server
+  }
+</script>
+
+</html>
